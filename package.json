@@ -1,0 +1,20 @@
+{
+  "name": "roy-signals-listener",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persistent Telegram listener that pushes Roy's parsed trade calls to Pusher",
+  "main": "server/telegramListener.js",
+  "scripts": {
+    "start": "node server/telegramListener.js",
+    "generate-session": "node server/generateSession.js"
+  },
+  "dependencies": {
+    "input": "^1.0.1",
+    "pusher": "^5.3.4",
+    "pusher-js": "^8.6.0",
+    "telegram": "^2.26.22"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
